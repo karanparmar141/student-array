@@ -1,13 +1,12 @@
-import { useState } from "react"
-import B from "./b"
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Api from './Api';
 
 function App() {
 
   return (
-      <div>
-        <B/>
-      </div>
+    <>
+      <Api/>
+    </>
   )
 }
 
